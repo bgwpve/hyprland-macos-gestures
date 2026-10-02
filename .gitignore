@@ -1,0 +1,17 @@
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Lua Bytecode & Cache
+*.luac
+luac.out
+
+# Local Backup & State Files
+*.bak
+*.bak.*
+.local/
