@@ -145,7 +145,7 @@ gestures.setup({
     disable_middle_click_paste = true, -- PREVENTS ACCIDENTAL PASTES!
     natural_scroll = true,             -- Inverted macOS-style scroll
     clickfinger_behavior = true,       -- 1fg=left click, 2fg=right click, 3fg=middle click
-    tap_to_click = true,
+    tap_to_click = false,              -- Press to click; a tap never clicks
     scroll_factor = 0.4,
     disable_while_typing = false,
     drag_3fg = 0,                      -- Set to 1 if you want 3-finger drag (see note below)
@@ -203,7 +203,7 @@ For users coming from macOS, this causes constant frustration:
 - Often, sensitive tokens, code snippets, or clipboard history get accidentally inserted into terminals and run as commands.
 
 `hyprland-macos-gestures` sets `misc:middle_click_paste = false` by default, protecting you from accidental pastes while fully preserving:
-- Two-finger tap for right-click (`clickfinger_behavior = true`).
+- Two-finger click for right-click (`clickfinger_behavior = true`).
 - Standard clipboard paste (Ctrl+V / Cmd+V / Super+V).
 
 ---

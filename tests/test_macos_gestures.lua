@@ -53,6 +53,7 @@ local last_cfg = _G.hl.configs[#_G.hl.configs]
 assert_eq(last_cfg.misc.middle_click_paste, false, "middle_click_paste should be false")
 assert_eq(last_cfg.input.touchpad.natural_scroll, true, "natural_scroll should be true")
 assert_eq(last_cfg.input.touchpad.clickfinger_behavior, true, "clickfinger_behavior should be true")
+assert_eq(last_cfg.input.touchpad.tap_to_click, false, "tap_to_click should be off by default")
 print("✓ Touchpad safety settings verified (middle_click_paste = false, natural_scroll = true)")
 
 -- Test 3: Teardown
