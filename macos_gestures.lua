@@ -111,8 +111,9 @@ M.defaults = {
     -- Clickfinger behavior: 1-finger click = left, 2-finger click = right, 3-finger click = middle
     clickfinger_behavior = true,
 
-    -- Tap to click
-    tap_to_click = true,
+    -- Tap to click: off. A light tap or a resting palm should never click; press the
+    -- pad to click, as on a Mac with "Tap to click" unchecked.
+    tap_to_click = false,
 
     -- Scroll speed multiplier
     scroll_factor = 0.4,
